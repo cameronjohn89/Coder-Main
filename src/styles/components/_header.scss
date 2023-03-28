@@ -1,0 +1,60 @@
+// Below are the @import tags which allow the css to pull shared information from other pages.//
+@import "../defaults/breakpoint";
+@import "../defaults/color";
+@import "../components/utils";
+
+// Header tag is where the basic information for the header is. Further information is nested within.//
+header {
+    background-color: $secondary-color;
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+
+    .name {
+        text-decoration: none;
+        font-size: 40px;
+
+        .cameron-text {
+            color: $primary-color-2;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+
+
+    .nav-items {
+        width: 100%;
+        font-size: 20px;
+        color: $secondary-color;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        // a element allows the rules and decoration for or individual navigation bar text//
+        a {
+            text-decoration: none;
+            color: $primary-color;
+        }
+
+    }
+}
+
+// I decided to blank this out. Because my website header is thin with no image in the top it maintains its shape and positioning well even on smalls screens.//
+// @media screen and (min-width: $medium) {
+//     header {
+//         display: flex;
+//         align-items: flex-end;
+//         justify-content: space-between;
+
+//         .logo-name {
+
+//             .name {
+//                 margin-bottom: 0;
+//             }
+//         }
+
+//         .nav-items {
+//             width: 100%;
+//         }
+//     }
+
+// }

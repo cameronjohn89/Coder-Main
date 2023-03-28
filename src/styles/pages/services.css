@@ -1,0 +1,86 @@
+footer {
+  background-color: #0db4d5;
+  padding: 16px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+footer .social-media a i {
+  color: #0c5d88;
+  font-size: 24px;
+}
+footer .info {
+  color: #0c5d88;
+}
+footer .info p {
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+header {
+  background-color: #0db4d5;
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+}
+header .name {
+  text-decoration: none;
+  font-size: 40px;
+}
+header .name .cameron-text {
+  color: #0c2d3e;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header .nav-items {
+  width: 100%;
+  font-size: 20px;
+  color: #0db4d5;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header .nav-items a {
+  text-decoration: none;
+  color: #0c5d88;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+main section {
+  border: 4px solid #0db4d5;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0px;
+  background-color: #0c5d88;
+  padding: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+main section .services-image {
+  width: 300px;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 350px) {
+  section .services-image {
+    width: 150px;
+  }
+}/*# sourceMappingURL=services.css.map */
