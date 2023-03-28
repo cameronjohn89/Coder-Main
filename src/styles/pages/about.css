@@ -1,3 +1,7 @@
+* {
+  overflow-x: hidden;
+}
+
 footer {
   background-color: #0db4d5;
   padding: 16px;
@@ -6,7 +10,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 100vw;
 }
 footer .social-media {
   display: flex;
@@ -24,13 +28,10 @@ footer .info p {
   margin: 5px 0;
 }
 
-@media screen and (min-width: 600px) {
-  footer .social-media {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+* {
+  overflow-x: hidden;
 }
+
 header {
   background-color: #0db4d5;
   padding: 16px;
@@ -56,6 +57,20 @@ header .nav-items {
 header .nav-items a {
   text-decoration: none;
   color: #0c5d88;
+}
+
+@media screen and (max-width: 411px) {
+  header .nav-items {
+    width: 75%;
+    font-size: 75%;
+  }
+  header .cameron-text {
+    width: 75%;
+    font-size: 75%;
+  }
+}
+* {
+  overflow-x: hidden;
 }
 
 main p {

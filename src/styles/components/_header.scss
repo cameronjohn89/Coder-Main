@@ -38,6 +38,20 @@ header {
     }
 }
 
+@media screen and (max-width: 411px) {
+    header .nav-items {
+        width: 75%;
+        font-size: 75%;
+
+    }
+
+    header .cameron-text {
+        width: 75%;
+        font-size: 75%;
+    }
+}
+
+
 // I decided to blank this out. Because my website header is thin with no image in the top it maintains its shape and positioning well even on smalls screens.//
 // @media screen and (min-width: $medium) {
 //     header {
