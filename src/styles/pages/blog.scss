@@ -10,6 +10,14 @@ main {
     color: $secondary-color-2;
     align-items: center;
 
+    .neon-image {
+        padding: 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     article {
 
         h1 {
