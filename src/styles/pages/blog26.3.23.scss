@@ -1,0 +1,29 @@
+@import "../defaults/breakpoint";
+@import "../defaults/color";
+@import "../components/footer";
+@import "../components/header";
+@import "../components/utils";
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: $secondary-color-2;
+    text-align: center;
+    background-color: $primary-color;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        color: $secondary-color-2;
+        text-align: center;
+        margin: 100px;
+    }
+
+    @media screen and (max-width: 350px) {
+        section {
+            width: 50vw;
+        }
+    }
+}

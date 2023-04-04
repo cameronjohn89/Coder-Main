@@ -1,1 +1,121 @@
-/*# sourceMappingURL=contact.css.map */
+* {
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: #0db4d5;
+  padding: 16px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+footer .social-media a i {
+  color: #0c5d88;
+  font-size: 24px;
+}
+footer .info {
+  color: #0c5d88;
+}
+footer .info p {
+  margin: 5px 0;
+}
+
+* {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #0db4d5;
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+}
+header .name {
+  text-decoration: none;
+  font-size: 40px;
+}
+header .name .cameron-text {
+  color: #0c2d3e;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header .nav-items {
+  width: 100%;
+  font-size: 20px;
+  color: #0db4d5;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header .nav-items a {
+  text-decoration: none;
+  color: #0c5d88;
+}
+
+@media screen and (max-width: 411px) {
+  header .nav-items {
+    width: 75%;
+    font-size: 75%;
+  }
+  header .cameron-text {
+    width: 75%;
+    font-size: 75%;
+  }
+}
+* {
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+main section form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+main section form .form-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+main section form .form-elements label {
+  margin-bottom: 0.5rem;
+}
+main section form .form-elements input,
+main section form .form-elements textarea {
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+main section form .form-elements input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+main section form .form-elements textarea {
+  width: 100%;
+  height: 6rem;
+}
+@media screen and (max-width: 350px) {
+  main section form section {
+    width: 50vw;
+  }
+}/*# sourceMappingURL=contact.css.map */

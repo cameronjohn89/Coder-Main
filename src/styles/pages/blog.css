@@ -106,4 +106,12 @@ main article section {
 main article section .blog-image {
   width: 300px;
   border-radius: 16px;
+}
+@media screen and (max-width: 350px) {
+  main section .services-image {
+    width: 50%;
+  }
+  main section {
+    width: 50vw;
+  }
 }/*# sourceMappingURL=blog.css.map */

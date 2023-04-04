@@ -44,4 +44,14 @@ main {
             }
         }
     }
+
+    @media screen and (max-width: 350px) {
+        section .services-image {
+            width: 50%;
+        }
+
+        section {
+            width: 50vw;
+        }
+    }
 }
