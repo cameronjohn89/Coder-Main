@@ -1,9 +1,11 @@
+// @import tags to add default css styles and rules created on their own pages
 @import "./defaults/breakpoint";
 @import "./defaults/color";
 @import "../styles/components/utils";
 @import "../styles/components/footer";
 @import "../styles/components/header";
 
+// body tag allows styling of the entire body. As this is my homepage it is different to the other css sheets.
 body {
     margin: 0;
     min-height: 100vh;
@@ -19,6 +21,8 @@ body {
         Verdana,
         sans-serif;
 
+    //.details give specific styling rules for the entires details section.
+    // these are the base rules for the page.
     .details {
         display: flex;
         flex-direction: column;
@@ -27,12 +31,15 @@ body {
         font-size: 20px;
         color: $secondary-color-2;
 
+        // .logo-image gives rules for the image in the middle at the top of the page. 
+        // without these rules the image would sit to the side and break the page
         .logo-image {
             display: flex;
             flex-direction: center;
             justify-content: center;
         }
 
+        // nested p tag for individual styling rules to the paragraph in the main section of the html.
         p {
             font-size: 30px;
             display: flex;

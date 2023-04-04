@@ -1,36 +1,43 @@
+// @import tags to add default css styles and rules created on their own pages
 @import "../defaults/breakpoint";
 @import "../defaults/color";
 @import "../components/footer";
 @import "../components/header";
 @import "../components/utils";
 
+//main tag allows me to apply rules to the entire main section on my page.
 main {
     display: flex;
     justify-content: center;
     color: $secondary-color-2;
     text-align: center;
 
+    // section tag for styles within the main to each section
     section {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
 
+        // as this is a form I have specific style rules that are associated with each form box.
         form {
             display: flex;
             flex-direction: column;
             margin-bottom: 200px;
 
+            // form-elements gives styling and rules to the individual form elements i.e. the names etc
             .form-elements {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 margin-bottom: 1rem;
 
+                // label tag for rules related to each label name
                 label {
                     margin-bottom: 0.5rem;
                 }
 
+                // this input, text area allows me to further style the input boxes for the form
                 input,
                 textarea {
                     padding: 0.5rem;
@@ -50,6 +57,7 @@ main {
                 }
             }
 
+            //@media screen tag allows me to have responsive styling on the page for different devices//
             @media screen and (max-width: 350px) {
                 section {
                     width: 50vw;

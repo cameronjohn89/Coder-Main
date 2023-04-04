@@ -1,4 +1,6 @@
+// This page is for creating special mixin styling and rules that can be imported as defaults into each page
 @mixin background-stuff() {
+    //gives background styling padding and text
     background-color: $secondary-color;
     padding: 16px;
     text-align: center;

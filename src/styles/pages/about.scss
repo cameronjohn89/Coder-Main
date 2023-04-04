@@ -1,9 +1,11 @@
+// @import tags to add default css styles and rules created on their own pages
 @import "../defaults/breakpoint";
 @import "../defaults/color";
 @import "../components/footer";
 @import "../components/header";
 @import "../components/utils";
 
+//main tag allows me to apply rules to the entire main section on my page.
 main {
     display: flex;
     flex-direction: column;
@@ -11,6 +13,8 @@ main {
     color: $secondary-color-2;
     text-align: center;
 
+    //nested section tag allows for specific styling and rules to be added to individual parts of the page such as the nested .history .education etc.
+    //note that most of the rules will be the same as it creates uniformity and prevents the page breaking
     section {
         display: flex;
         flex-direction: column;
@@ -18,6 +22,7 @@ main {
         color: $secondary-color-2;
         text-align: center;
 
+        //each . tag below is a corresponding header tag on my html. This provides style rules for each name and allows me to style them differently if I want. In my css they are all the same.
         .history {
             border: 4px solid $secondary-color;
             border-radius: 8px;
@@ -70,6 +75,7 @@ main {
         }
     }
 
+    // media screen tag again to set specific rules for different devices/screen sizes
     @media screen and (max-width: 350px) {
         section .services-image {
             width: 50%;

@@ -10,6 +10,7 @@ header {
     text-align: center;
     width: 100%;
 
+    // .name tag and nest .cameron tag for individual styles/rules on the associated text in the header
     .name {
         text-decoration: none;
         font-size: 40px;
@@ -20,7 +21,7 @@ header {
         }
     }
 
-
+    // .nav-items tag for stylings and rules on the navigation bar items
     .nav-items {
         width: 100%;
         font-size: 20px;
@@ -37,6 +38,8 @@ header {
 
     }
 }
+
+// media screen tag gives style rules for different media devices with smaller screens
 
 @media screen and (max-width: 411px) {
     header .nav-items {

@@ -1,9 +1,11 @@
+// @import tags to add default css styles and rules created on their own pages
 @import "../defaults/breakpoint";
 @import "../defaults/color";
 @import "../components/footer";
 @import "../components/header";
 @import "../components/utils";
 
+//main tag allows me to apply rules to the entire main section on my page.
 main {
     display: flex;
     flex-direction: column;
@@ -12,6 +14,7 @@ main {
     text-align: center;
     background-color: $primary-color;
 
+    // section tag gives rules for the text within the blog page
     section {
         display: flex;
         flex-direction: column;
@@ -21,6 +24,7 @@ main {
         margin: 100px;
     }
 
+    // media screen tag again to set specific rules for different devices/screen sizes
     @media screen and (max-width: 350px) {
         section {
             width: 50vw;

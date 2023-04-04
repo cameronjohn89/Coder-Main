@@ -1,7 +1,9 @@
+// @import tags to add default css styles and rules created on their own pages
 @import "../components/utils";
 @import "../defaults/breakpoint";
 @import "../defaults/color";
 
+// footer tag to add styling rules and information to entire footer
 footer {
     @include background-stuff();
 
@@ -11,11 +13,13 @@ footer {
     right: 0;
     width: 100vw;
 
+    //.social-media tag added and nested inside the footer to add specific individual rules/styles
     .social-media {
         display: flex;
         justify-content: space-around;
         margin-bottom: 24px;
 
+        // a tag nested in the above for styling rules on the individual icons
         a {
             i {
                 color: $primary-color;
@@ -24,6 +28,7 @@ footer {
         }
     }
 
+    // individual .info tag again for specific styles and rulings on the footer text
     .info {
         color: $primary-color;
 

@@ -1,14 +1,18 @@
+// @import tags to add default css styles and rules created on their own pages
 @import "../defaults/breakpoint";
 @import "../defaults/color";
 @import "../components/footer";
 @import "../components/header";
 @import "../components/utils";
 
+//Below is the main tag inside is the nested sections of the page//
 main {
     display: flex;
     justify-content: center;
     color: $secondary-color-2;
 
+    // section tag gives rules to the section individually. This has a nest .services-image tag which gives measurements and rules to the image that sits inside
+    // in this area I needed to give several rules to make the images fit with the styles around them not getting to big
     section {
         border: 4px solid $secondary-color;
         border-radius: 8px;
@@ -28,7 +32,7 @@ main {
     }
 }
 
-
+//@media screen tag allows me to have responsive styling on the page for different devices//
 @media screen and (max-width: 350px) {
     section .services-image {
         width: 50%;
