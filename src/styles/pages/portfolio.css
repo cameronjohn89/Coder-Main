@@ -92,6 +92,7 @@ main section {
 }
 main section .portfolio-images {
   width: 300px;
+  height: 250px;
   border-radius: 16px;
 }
 
