@@ -54,6 +54,7 @@ body {
     }
 }
 
+// media screen tag to help the layout in responsive styling for mobile and tablet view
 @media screen and (max-width: 470px) {
     main {
         display: flex;
