@@ -1,10 +1,22 @@
 #Cameron Lawrence portfolio
 
-## Overview - This website is created to give information about Cameron Lawrence and the services he provides, along with a blog and some projects he has already been a part of or created as a Full-Stack Developer.
+## Overview and purpose - This website is created to give information about me (Cameron Lawrence) and the services I provide, along with a blog and some projects I have been a part of or created as a Full-Stack Developer. The intended target audience is any potential client or anyone looking for help information about full-stack development.
+
+### Links to associated accounts and presentation videos:
+## Website URL: https://stunning-souffle-3319d1.netlify.app/
+## Presentation Video: https://youtu.be/WlRIG1Ai4Rk
+## Github Account: https://github.com/cameronjohn89
+
+## Functionality/Features - This website will be similar to most other websites in that it will have a theme/layout across the entire site but will have some variations. Its features will be individal pages, links and blog posts linked in through either the navigation bar, the footer social media links or images linked to new pages or linking the user back to the homepage. The individual features that it will have are links to all my social media and work accounts and emails, a feature embedded spotify bar on my portfolio page, and submission form for my contact page.
+
 
 ## Components - This website will have several big components or pages and each of those will contain sub components. Each page will have a header and footer that will be the same across the website. It will also contain a body which will differ depending on the page. In the header there is all the seperate HTML links to different pages - About, Services, Portfolio, Blog and Contact. Then there will be the footer which contains links to social media/work media accounts and an email address in the form of icons, and finally contract address and phone number.
 
+## Source (src) - this is the root folder for all of my html, scss/css, folders and images to do with my website, In the folder is the main html document 
+
 ### Pages - The pages folder (src/pages) contains the individual html files for each page except the index.html which will be in the root src folder. Below is the default layout of each page.
+
+
 
 ### Header - the header will be identical on each page. It will contain the title of my website and the navigation bar. 
 
