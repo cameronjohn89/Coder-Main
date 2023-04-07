@@ -53,3 +53,26 @@ body {
         }
     }
 }
+
+@media screen and (max-width: 470px) {
+    main {
+        display: flex;
+        justify-content: center;
+
+        .details {
+            width: 100vw;
+            font-size: smaller;
+
+            h1 {
+                justify-content: center;
+
+            }
+
+            p {
+                font-size: 15px;
+                width: auto;
+                margin: auto;
+            }
+        }
+    }
+}

@@ -59,10 +59,11 @@ header .nav-items a {
   color: #0c5d88;
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 412px) {
   header .nav-items {
     width: 75%;
-    font-size: 75%;
+    font-size: 90%;
+    margin: auto;
   }
   header .cameron-text {
     width: 75%;
@@ -87,7 +88,7 @@ main section {
   color: white;
   text-align: center;
 }
-main section .history {
+main section .about {
   border: 4px solid #0db4d5;
   border-radius: 8px;
   overflow: hidden;
@@ -134,7 +135,7 @@ main section .button-cv {
   font-weight: bold;
 }
 @media screen and (max-width: 350px) {
-  main section .services-image {
+  main main {
     width: 50%;
   }
   main section {

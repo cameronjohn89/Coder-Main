@@ -22,8 +22,8 @@ main {
         color: $secondary-color-2;
         text-align: center;
 
-        //each . tag below is a corresponding header tag on my html. This provides style rules for each name and allows me to style them differently if I want. In my css they are all the same.
-        .history {
+        //each . tag below is a corresponding title for my about page in my html. This provides style rules for each name and allows me to style them differently if I want. In my css they are all the same.
+        .about {
             border: 4px solid $secondary-color;
             border-radius: 8px;
             overflow: hidden;
@@ -77,8 +77,9 @@ main {
 
     // media screen tag again to set specific rules for different devices/screen sizes
     @media screen and (max-width: 350px) {
-        section .services-image {
+        main {
             width: 50%;
+
         }
 
         section {

@@ -41,10 +41,11 @@ header {
 
 // media screen tag gives style rules for different media devices with smaller screens
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 412px) {
     header .nav-items {
         width: 75%;
-        font-size: 75%;
+        font-size: 90%;
+        margin: auto;
 
     }
 

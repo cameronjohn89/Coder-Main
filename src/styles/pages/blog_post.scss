@@ -24,10 +24,17 @@ main {
         margin: 100px;
     }
 
-    // media screen tag again to set specific rules for different devices/screen sizes
-    @media screen and (max-width: 350px) {
-        section {
-            width: 50vw;
-        }
+
+}
+
+// media screen tag again to set specific rules for different devices/screen sizes
+@media screen and (max-width: 400px) {
+    main {
+        width: 100vw;
+        font-size: 13px;
+    }
+
+    section {
+        width: 50vw;
     }
 }

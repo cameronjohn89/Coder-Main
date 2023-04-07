@@ -59,10 +59,11 @@ header .nav-items a {
   color: #0c5d88;
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 412px) {
   header .nav-items {
     width: 75%;
-    font-size: 75%;
+    font-size: 90%;
+    margin: auto;
   }
   header .cameron-text {
     width: 75%;
@@ -89,8 +90,13 @@ main section {
   text-align: center;
   margin: 100px;
 }
-@media screen and (max-width: 350px) {
-  main section {
+
+@media screen and (max-width: 400px) {
+  main {
+    width: 100vw;
+    font-size: 13px;
+  }
+  section {
     width: 50vw;
   }
 }/*# sourceMappingURL=blog_post.css.map */
